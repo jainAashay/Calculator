@@ -27,7 +27,7 @@ export default function Calculator() {
      
     <div className="container" style={{width:'75%' , height:800, }}>
        <input type="text" style={{width:'100%', height:70,backgroundColor:'yellow',color:'red', fontSize:30}}className="form-control my-5" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" value={count} onChange={inputchange} id="inp"/>
-       <div className='row'>
+       <div className='row' >
           <div className='col'>
              <button type="button" className="btn btn-primary btn-lg my-1 mx-1" id='1' style={{width:'100%', height:110, fontSize:40}} onClick={txtchange}>1</button>
           </div>
